@@ -15,24 +15,34 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "B.Tech in Computer Science",
+      college: "Lovely Professional University",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2022-2026",
+      achievements: ["CGPA: 7.9", "Subject: Computer Science"],
+      skills: ["C++", "Data Structure", "Algorithms", "Web Development"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Focuses on software development and data structures. Gained hands-on experience in web technologies and programming languages.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      college: "Nalanda School",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2020-2022",
+      achievements: ["CGPA: 7.5", "Subject: Science"],
+      skills: ["Physics", "Chemistry", "Mathematics"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Developed strong analytical and critical thinking skills through comprehensive study of PCM",
+    },
+    {
+      degree: "Secondary School Certificate (SSC)",
+      college: "Air Force School",
+      mascot: "📗",
+      year: "2020",
+      achievements: ["CGPA: 8.6", "Subject: Science"],
+      skills: ["Physics", "Chemistry", "Mathematics","Social Science","English"],
+      description:
+        "Established a solid foundation in core subjects, enhancing problem-solving and analytical skills.",
     },
   ];
 
@@ -111,7 +121,7 @@ const EducationSection = () => {
                   </div>
                   <p className="text-lg text-gray-300 flex items-center gap-2">
                     <BookOpen className="w-5 h-5 text-teal-500" />
-                    {edu.school}
+                    {edu.college}
                   </p>
                   <p className="text-gray-400 flex items-center gap-2">
                     <Calendar className="w-4 h-4" />

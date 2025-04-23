@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./assets/css/index.css";
-import Experience from "./pages/Experience/Experience";
 import Contact from "./pages/Contact/Contact";
 import Projects from "./pages/Projects/Projects";
 import Header from "./pages/Header/Header";
@@ -22,7 +21,6 @@ export default function App() {
         <>
           <Hero />
           <Skills />
-          <Experience />
           <Education />
           <Contact />
         </>
@@ -31,7 +29,6 @@ export default function App() {
         <Routes>`
           <Route path="/" element={<Hero />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
