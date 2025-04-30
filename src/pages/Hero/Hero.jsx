@@ -100,7 +100,7 @@ const profile = {
           <div className="absolute inset-0"></div>
 
           {/* Choose one of these background options */}
-          <GridBackground />
+          {/* <GridBackground /> */}
 
           {/* Or keep the original backgrounds if you prefer */}
           {/* <HexagonBackground /> */}
@@ -109,7 +109,7 @@ const profile = {
 
           {/* Meteors Effect */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <Meteors number={10} />
+            <Meteors number={50} />
           </div>
 
           {/* Main content container */}
@@ -193,7 +193,7 @@ const profile = {
               </div>
 
               {/* Floating badges */}
-              <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
+              <div className="hidden lg:block absolute left-[25rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
                   <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp;UI
                   Magic
@@ -234,8 +234,8 @@ const profile = {
         </section>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
-          <span className="text-gray-400 text-sm flex items-center gap-2">
+        <div className="absolute bottom-18 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
+          <span className="text-gray-400 text-3xl flex items-center gap-2">
             <i className="fas fa-mouse text-blue-400"></i>
             About me
           </span>

@@ -9,14 +9,14 @@ export default function About() {
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
             Full Stack Developer, Problem Solver, and Tech Enthusiast
           </h2>
-          <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
+          <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-1">
             <div className="relative mb-6 sm:mb-0">
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
                 <img
                   src={HeroImg}
-                  className="rounded-[15px] shadow block"
+                  className="rounded-[50px] shadow block"
                   alt="payments illustration"
-                  width={400}
+                  width={350}
                   height={400}
                 />
               </div>
